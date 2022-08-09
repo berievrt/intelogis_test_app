@@ -1,0 +1,36 @@
+.split {
+  display: flex;
+}
+
+.gutter {
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  z-index: 1;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==");
+  cursor: row-resize;
+}
+
+.row-light {
+  background-color: #fff;
+}
+
+.row-dark {
+  background-color: #e1e1e1;
+}
+
+
+.leaflet-routing-collapse-btn {
+  position: absolute;
+  top: 0;
+  right: 20px !important;
+  font-size: 24px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+
+
